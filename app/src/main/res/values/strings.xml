@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_image_item">Image Item</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_album_details">Album Details</string>
+</resources>

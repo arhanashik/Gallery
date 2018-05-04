@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:layout_margin="4dp">
+
+    <ImageView
+        android:id="@+id/album_cover"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/album_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent_50"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:padding="3dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/transparent_50"
+        android:padding="3dp"
+        android:layout_alignBottom="@+id/album_cover">
+
+        <TextView
+            android:id="@+id/album_photo_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photo Count"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/album_creation_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Creation date"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>
